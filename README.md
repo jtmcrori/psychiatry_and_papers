@@ -1,4 +1,4 @@
-# 🧠 Psychiatry and Papers
+# Psychiatry and Papers
 
 This repository contains research notebooks, data workflows, and manuscript drafts focused on topics in psychiatry, neuroscience, and computational mental health.
 
