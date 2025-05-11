@@ -35,3 +35,7 @@ data/processed/
 *.tmp
 *.bak
 *.swp
+
+
+# Ignore REST-meta-MDD dataset
+papers/rest_meta_mdd_dmn/data/
