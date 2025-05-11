@@ -1,15 +1,37 @@
-# Jupyter
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Python
+# Python bytecode and cache
 __pycache__/
 *.pyc
-.env/
+*.pyo
+*.pyd
 
-# Data
+# Environment files
+.env/
+.venv/
+env/
+venv/
+envs/
+
+# VS Code workspace settings
+.vscode/
+
+# OS metadata files
+.DS_Store
+Thumbs.db
+
+# Ignore large data files (you can version data separately with DVC or Git LFS)
 data/raw/
 data/processed/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Ignore compiled output
+*.so
+*.out
+*.o
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.swp

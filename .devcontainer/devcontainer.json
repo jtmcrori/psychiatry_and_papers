@@ -1,0 +1,23 @@
+{
+  "name": "Neurodesk Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/home/jovyan/workspace",
+  "remoteUser": "jovyan",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/home/jovyan/workspace,type=bind,consistency=cached"
+  ],
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "njpwerner.autodocstring"
+      ],
+      "settings": {}
+    }
+  },
+  "postCreateCommand": "echo 'Environment ready!'"
+}
